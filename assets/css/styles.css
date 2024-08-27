@@ -1,0 +1,21 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    color: #4682B4; /* Tent */
+  }
+  
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
